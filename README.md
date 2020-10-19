@@ -2,7 +2,7 @@ Setting up PoC Platform
 _____________________________________________________________________________________________________________________
 
 By						      Zione Mwakanema
-Document version		1.0
+
 
 Prerequisites
 

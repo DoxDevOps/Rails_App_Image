@@ -29,6 +29,7 @@ Steps to install platform
 2. cd poc_backend
 3. *** From https://github.com/HISMalawi/BHT-EMR-API, get the Gemfile into poc_backend dir
 4. touch Gemfile.lock
-5. *** get Dockerfile from dist folder to poc_backend
-6. *** get the docker-compose.yml from the dist folder to poc_backend
-7. docker-compose run app rails new . --force --database=mysql --skip-bundle
+5. chmod a+w Gemfile.lock
+6. *** get Dockerfile from dist folder to poc_backend
+7. *** get the docker-compose.yml from the dist folder to poc_backend
+8. docker-compose run app rails new . --force --database=mysql --skip-bundle

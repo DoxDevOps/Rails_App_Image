@@ -49,10 +49,10 @@ test:
 
 5. Get the image up with:
 ```bash 
-docker-compose up 
+docker-compose up -d
 ```
 
-6. Finally, you need to create the database. In another terminal, run:
+6. Finally, you need to create the database.
 ```bash
 docker-compose run web rake db:create
 ```

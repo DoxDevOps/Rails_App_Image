@@ -16,11 +16,11 @@ Getting the image up
 docker-compose run --no-deps web rails new . --force --database=mysql
 ```
 
-2. If you are running Docker on Linux, the files created are owned by root. If this is the case, change the ownership of the new files.
+2. If you are running Docker on Linux, the files created are owned by root. If this is the case, change the ownership of the new files. If you are running Docker on Mac or Windows, you should already have ownership of all files.
 ```bash
 sudo chown -R $USER:$USER .
 ```
-If you are running Docker on Mac or Windows, you should already have ownership of all files.
+
 
 3. Now that you’ve got a new Gemfile, you need to build the image again. (This, and changes to the Gemfile or the Dockerfile, should be the only times you’ll need to rebuild.)
 ```bash

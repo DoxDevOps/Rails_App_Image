@@ -11,6 +11,8 @@ Prerequisites
 
 Getting the image up
 
+*** Assuming that you are in the dist dir, follow these steps to get your App up-and-running!
+
 1. Generate the Rails skeleton using docker-compose run:
 ```bash
 docker-compose run --no-deps web rails new . --force --database=mysql

@@ -1,4 +1,4 @@
-Setting up Rails App with MySQL database
+Setting up Contenarized Rails App with MySQL database
 _____________________________________________________________________________________________________________________
 
 By						      Zione Mwakanema

@@ -8,6 +8,7 @@ Prerequisites
 
 1. Basic command line knowledge
 2. Text editor
+3. Install Docker and docker-compose
 
 Getting the image up
 
